@@ -1,0 +1,10 @@
+[Unit]
+Description = pc-is-ready-to-use-after-boot sound
+After=sshd.service network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=#path/to/pirtuabs_sound
+
+[Install]
+WantedBy=multi-user.target
