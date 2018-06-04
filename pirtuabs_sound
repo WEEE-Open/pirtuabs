@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#### RUSSIAN ANTHEM USED FOR EXAMPLE I SUGGEST TO CREATE YOUR SOUND ########
+
 beep -l 375 -f 392 #sol
 beep -l 750 -f 523 #do5
 beep -l 463 -f 392 #sol
